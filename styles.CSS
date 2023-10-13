@@ -1,91 +1,90 @@
 html {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(189, 216, 189);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(189, 216, 189);
 }
 body {
-    text-align: center;
+  text-align: center;
 }
 /* GIVE ALL IMAGES MARGINS AND SPACE AROUND EACH WITH A SHADOW */
 img {
-    margin: 1rem 1rem 1rem 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.5);
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 /* MOVE IMAGES AROUND HOME PAGE */
 #art-1 {
-    float: left;
-    margin-left: 5rem;
+  float: left;
+  margin-left: 5rem;
 }
 #art-2 {
-    margin-top: 15rem;
+  margin-top: 15rem;
 }
 #art-3 {
-    float: right;
-    margin-right: 5rem;
+  float: right;
+  margin-right: 5rem;
 }
 #art-4 {
-    float: left;
-    margin-left: 5rem;
-    margin-bottom: 5rem;
+  float: left;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
 }
 #art-5 {
-    float: right;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+  float: right;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
 }
 /* POSITION AND STYLE ALL IMAGE CAPTIONS */
 figcaption {
-    display: flex;
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
 /* ABOUT PAGE SET IMAGE TO BE NEXT TO UNORDERED LIST INSTEAD OF ABOVE */
 .img-div3 {
-    display: flex;
-    flex: nowrap;
-    justify-content: center;
+  display: flex;
+  flex: nowrap;
+  justify-content: center;
 }
 /* DON'T WANT BOLD LETTERING OR CENTER ALIGNMENT FOR THIS PARTICULAR CHUNK OF TEXT, ADD SPACE BETWEEN LINES */
-.list-div{
-    font-weight: normal;
-    text-align: left;
-    line-height: 5rem;
+.list-div {
+  font-weight: normal;
+  text-align: left;
+  line-height: 5rem;
 }
 /* STYLE AND SPACE NAVIGATION LINKS */
 .navigation-div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    word-spacing: 20rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 20rem;
 }
 /* POSITIONING IMAGE OF DRAWING OF RIJU */
 #riju {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 /* CENTERING TABLE WITH SOCIAL LINKS, END UP COMMENTING THIS TABLE OUT IN HTML BECAUSE IT SEEMED REDUNDANT */
 #about-table {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 /* STYLING HORIZONTAL RULE */
 hr {
-    color: rgb(0, 0, 0)!important;
-    font-weight: bold;
-    border-width: 2px;
+  border: 1px solid rgb(0, 0, 0);
 }
+
 /* INKTOBER PAGE */
 /* SET COLOR OF LINKED TEXT ORANGE FOR HALLOWEEN */
 #inktober-link {
-    color: rgb(192, 127, 6);
-    text-align: center;
+  color: rgb(192, 127, 6);
+  text-align: center;
 }
 /* CHANGE TO DARKER ORANGE WHEN LINK IS VISITED */
 inktober-link:visited {
-    color: rgb(99, 65, 3);
+  color: rgb(99, 65, 3);
 }
 /* CHANGE DISPLAY TO FLEX AND  */
 .inktober-img-div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
